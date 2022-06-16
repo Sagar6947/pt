@@ -2,9 +2,9 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 
-$config['base_url'] = 'http://localhost/purpleturtle';
+// $config['base_url'] = 'http://localhost/purpleturtle';
 
-// $config['base_url'] = 'https://webangeltech.com/purpleturtle/';
+$config['base_url'] = 'https://webangeltech.com/pt/';
 
 
 $config['index_page'] = 'index.php';
