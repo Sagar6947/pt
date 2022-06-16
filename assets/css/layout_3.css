@@ -1,0 +1,237 @@
+/* 
+Template Name: Halari � Multipurpose Business Template
+Template URI: https://themeforest.net/item/halari-multi-purpose-parallax-business-landing-page-psd-template/24429840
+Description: Halari � Multi purpose Business landing page template for Service, corporate, agency, Consulting, startup.
+Author: ashishmaraviya
+Author URI: https://themeforest.net/user/ashishmaraviya
+*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+01. Slider section / .slider_sec
+02. Package section / .package_sec
+03. Footer section / footer
+-------------------------------------------------------------------*/
+
+/** Slider section **/
+.slider_sec_3 .caption_info .inner-text-left {
+    max-width: 730px;
+    margin:0 0 90px 0;
+    text-align: left;
+    position: relative; 
+    z-index: 9;
+}
+.slider_sec_3 .caption_info .inner-text-left h1{
+    margin: 0 0 25px 0;
+    font-size: 60px;
+    line-height: 70px;
+    border-left: 10px solid #5076db;
+    padding-left: 20px;
+}
+.slider_sec_3 .caption_info .inner-text-left p{
+    max-width: 730px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+ .slider_sec_3 .caption_info .inner-text-left .store-btn-set { 
+    padding-left: 22px;
+}
+.slider_sec_3:before {
+    /* background: url(../img/about-layer.webp) top center no-repeat !important; */
+    /* background-size: 100% 100% !important; */
+    content: "";
+    width: 100%;
+    height: 150px;
+    background: url(../img/wave.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -34px;
+    left: 0;
+    z-index: 3;
+}
+
+
+section#overlay{
+    padding: 180px 0;
+    position: relative;
+}
+
+section#overlay::before{
+    content: "";
+    width: 100%;
+    height: 237px;
+    background: url(../img/wave.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform: rotate(180deg);
+    top: -34px;
+}
+
+section#overlay-2{
+    background: #f3ce59;
+    padding-top: 100px;
+    padding-bottom: 67px;
+}
+
+section#overlay::after{
+    content: "";
+    width: 100%;
+    /* height: 215px; */
+    background: url(../img/wave-2.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform: rotate(360deg);
+    /* top: -34px; */
+    bottom: 0;
+}
+
+section#animatedVideo{
+    position: relative;
+    padding-top: 100px;
+    background: url(../img/bg-img.webp); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+}
+
+section#animatedVideo::before{
+    content: "";
+    width: 100%;
+    height: 150px;
+    background: url(../img/wave-2.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform: rotate(180deg);
+    top: -20px
+}
+
+section#overlay-4{
+    position: relative;
+    padding: 100px 0;
+}
+
+/* section#overlay-4::before{
+    content: "";
+    width: 100%;
+    height: 150px;
+    background: url(../img/wave-3.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform: rotate(180deg);
+    top: -34px;
+    z-index: 99999;
+} */
+
+section#overlay-5{
+    position: relative;
+}
+section#overlay-5::before{
+    content: "";
+    width: 100%;
+    height: 150px;
+    background: url(../img/wave-3.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform: rotate(180deg);
+    top: 8px;
+    z-index: 99999;
+    margin-top: 0;
+}
+
+section#overlay-6{
+    padding-bottom: 160px;
+}
+section#overlay-5::before{
+    content: "";
+    width: 100%;
+    height: 131px;
+    background: url(../img/footer_clouds.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform: rotate(360deg) !important;
+    left: 0;
+    top: -108px;
+    z-index: 99999;
+
+}
+
+.section-2:before {
+    /* background: url(../img/about-layer.webp) top center no-repeat !important; */
+    /* background-size: 100% 100% !important; */
+    content: "";
+    width: 100%;
+    height: 150px;
+    background: url(../img/about-layer-2.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 1855px;
+    top: 1855px;
+    left: 0;
+    z-index: 3;
+}
+
+/** package section **/
+.package_sec_3 {
+    padding: 100px 0 250px 0;
+    position: relative;
+}
+.package_sec_3:before {
+    content: "";
+    width: 100%;
+    height: 150px;
+    background: url(../images/home_2_curve.webp) top center no-repeat !important;
+    background-size: 100% 100% !important;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+
+/** Footer section **/
+.footer_detail_3 { 
+	/* margin:150px 0 0 0;  */
+	overflow: unset;
+    position: relative;
+}
+
+.footer_detail_3 .footer_bird{ 
+    width: 100px;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    animation: 4s linear 0s infinite alternate move_eye;
+}
+
+@keyframes move_eye { from { margin-top: -5%; } to { margin-top: 1%; }  }
+/* .footer_detail_3:before {
+    content: "";
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    top: -150px;
+    left: 0px;
+    z-index: 9;
+    background: url(../images/home_3_footer_curve.webp) center top / 100% 100% no-repeat !important;
+} */
+
+

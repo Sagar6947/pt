@@ -1,0 +1,449 @@
+/* 
+Template Name: Halari – Multipurpose Business Template
+Template URI: https://themeforest.net/item/halari-multi-purpose-parallax-business-landing-page-psd-template/24429840
+Description: Halari – Multi purpose Business landing page template for Service, corporate, agency, Consulting, startup.
+Author: ashishmaraviya
+Author URI: https://themeforest.net/user/ashishmaraviya
+*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+01. Nav section / .nav_sec
+02. Slider section / .slider_sec
+03. About section / .about_sec
+04. Service section / .services_sec
+05. Skill section / .skill_sec
+06. Portfolio section / .portfolio_sec
+07. Counter section / .count_sec
+08. Team section / .team_sec
+09. Package section / .package_sec
+10. Testimonial section / .testimonial_sec
+11. Blog section / .blog_sec
+12. Instagram section / .instagram_sec
+13. Footer section / footer
+14. Back to top / 
+15. Inner home pages / 
+	- layout 2 color css
+	- layout 4 color css
+-------------------------------------------------------------------*/
+ 
+/*------------------------------------------------------------------
+# [Color codes]
+
+Halari template contains couple color like:
+
+# Blue : #5076db
+# Green : #5bc86d
+
+# */
+
+/*******  Nav Sec  *******/
+.nav_sec .navbar-light .navbar-nav .nav-link:hover,
+.nav_sec .navbar-light .navbar-nav .nav-link:focus {
+	color: #5bc86d;
+}
+.nav_sec .navbar-light .navbar-nav .show>.nav-link,
+.nav_sec .navbar-light .navbar-nav .active>.nav-link,
+.nav_sec .navbar-light .navbar-nav .nav-link.show,
+.nav_sec .navbar-light .navbar-nav .nav-link.active {
+	color: #5bc86d;
+}
+.nav_sec .navbar-light .navbar-nav .nav-link:hover:before {
+	background: #5bc86d;
+}
+.nav_sec .dropdown-item:hover,
+.nav_sec .dropdown-item.active {
+	background: #5bc86d;
+}
+.nav_sec .navbar-light .navbar-nav li.active:before {
+	background: #5bc86d;
+}
+.nav_sec .navbar-brand .blue {
+	color: #5076db;
+}
+.nav_sec .navbar-brand .green {
+	color: #5bc86d;
+}
+
+/*******  Slider Sec  *******/
+.slider_sec .caption_info h1 span {
+	color: #5bc86d;
+}
+.slider_sec .caption_info h1 .typer {
+	color: #5bc86d !important;
+}
+.slider_sec .caption_info .inner-text-left h1 {
+	border-left: 10px solid #5076db;
+}
+.store_btn {
+	background: #5076db;
+}
+.store_btn.green {
+	background: #5bc86d;
+}
+.slider_sec .owl-carousel .owl-nav button.owl-prev:hover,
+.slider_sec .owl-carousel .owl-nav button.owl-next:hover {
+	background: #5076db !important;
+	border-color: #5076db;
+}
+.buy_btn {
+	background: #6b2676	;
+	box-shadow: 0 9px 20px rgba(80, 118, 219, 0.30);
+}
+.radial-out:hover {
+	background: #5076db;
+}
+.radial-out:before {
+	background: #5bc86d;
+}
+.inner_banner h1 span {
+	color: #ffffff;
+}
+ul.breadcrum li {
+	color: #ffffff;
+}
+
+/*******  About Sec  *******/
+
+ 
+/* .about_sec .about-img:after {
+	background-color: #5076db;
+} */
+
+/*******  Service Sec  *******/
+.service_sec .service_block:hover h3 {
+	color: #5076db;
+}
+.service_sec .service_block:hover .move_link {
+	color: #5076db;
+}
+.service_sec .service_block figure {
+	background: url(../images/service_ic_1.png) top center no-repeat;
+}
+
+/* if you have to change images on hover to remove comments on code */
+
+/*.service_sec .service_block:hover figure {
+	background: url(../images/service_ic_1_h.png) top center no-repeat;
+}*/
+.service_sec .service_block_2 figure {
+	background: url(../images/service_ic_2.png) top center no-repeat;
+}
+/*.service_sec .service_block_2:hover figure {
+	background: url(../images/service_ic_2_h.png) top center no-repeat;
+}*/
+.service_sec .service_block_3 figure {
+	background: url(../images/service_ic_3.png) top center no-repeat;
+}
+/*.service_sec .service_block_3:hover figure {
+	background: url(../images/service_ic_3_h.png) top center no-repeat;
+}*/
+.service_sec .service_block_4 figure {
+	background: url(../images/service_ic_4.png) top center no-repeat;
+}
+/*.service_sec .service_block_4:hover figure {
+	background: url(../images/service_ic_4_h.png) top center no-repeat;
+}*/
+.service_sec .service_block_5 figure {
+	background: url(../images/service_ic_5.png) top center no-repeat;
+}
+/*.service_sec .service_block_5:hover figure {
+	background: url(../images/service_ic_5_h.png) top center no-repeat;
+}*/
+.service_sec .service_block_6 figure {
+	background: url(../images/service_ic_6.png) top center no-repeat;
+}
+/*.service_sec .service_block_6:hover figure {
+	background: url(../images/service_ic_6_h.png) top center no-repeat;
+}*/
+.service_sec.service_inn .inner {
+	background: url(../images/service_inn_bg.png) bottom center no-repeat;
+}
+.service_sec .service_inn_block:hover h3 {
+	color: #5076db;
+}
+.service_sec .service_inn_block figure {
+	background: url(../images/service_ic_1.png) center center no-repeat;
+}
+.service_sec.service_inn .left_info .service_inn_block:hover:nth-child(1) figure {
+	background: url(../images/service_ic_1_h.png) center center no-repeat;
+}
+.service_sec.service_inn .left_info .service_inn_block:hover:nth-child(2) figure {
+	background: url(../images/service_ic_4_h.png) center center no-repeat;
+}
+.service_sec.service_inn .left_info .service_inn_block:hover:nth-child(3) figure {
+	background: url(../images/service_ic_5_h.png) center center no-repeat;
+}
+.service_sec.service_inn .right_info .service_inn_block:hover:nth-child(1) figure {
+	background: url(../images/service_ic_2_h.png) center center no-repeat;
+}
+.service_sec.service_inn .right_info .service_inn_block:hover:nth-child(2) figure {
+	background: url(../images/service_ic_3_h.png) center center no-repeat;
+}
+.service_sec.service_inn .right_info .service_inn_block:hover:nth-child(3) figure {
+	background: url(../images/service_ic_6_h.png) center center no-repeat;
+}
+.service_sec.service_inn .left_info .service_inn_block:nth-child(2) figure {
+	background: url(../images/service_ic_4.png) center center no-repeat;
+}
+.service_sec.service_inn .left_info .service_inn_block:nth-child(3) figure {
+	background: url(../images/service_ic_5.png) center center no-repeat;
+}
+.service_sec.service_inn .right_info .service_inn_block:nth-child(1) figure {
+	background: url(../images/service_ic_2.png) center center no-repeat;
+}
+.service_sec.service_inn .right_info .service_inn_block:nth-child(2) figure {
+	background: url(../images/service_ic_3.png) center center no-repeat;
+}
+.service_sec.service_inn .right_info .service_inn_block:nth-child(3) figure {
+	background: url(../images/service_ic_6.png) center center no-repeat;
+}
+
+/*******  Skill Sec  *******/
+.skill_sec .progress .track,
+.progress .fill {
+	stroke: #5bc86d;
+}
+.skill_sec .progress.blue .fill {
+	stroke: #5076db;
+}
+.skill_sec .progress.green .fill {
+	stroke: #5bc86d;
+}
+.skill_sec .progress .value{
+	fill: #5bc86d;
+}
+.skill_sec .progress.blue .value{
+	fill: #5076db;
+}
+
+/*******  Portfolio Sec  *******/
+.portfolio_sec figure:hover .caption_global {
+	border-color: #5076db;
+}
+
+/*******  Count Sec  *******/
+.count_sec .count_block h3 strong {
+	color: #5bc86d;
+}
+.count_sec .count_block h3.active-num strong {
+	color: #5076db;
+}
+
+/*******  Team Sec  *******/
+.team_sec .caption_global {
+	background: rgba(80, 118, 219, 0.9);
+}
+ul.team_social li a:hover {
+	background: #5bc86d;
+}
+.team_sec .owl-carousel .owl-nav button.owl-prev:hover,
+.team_sec .owl-carousel .owl-nav button.owl-next:hover {
+	background: #5bc86d !important;
+	border-color: #5bc86d;
+}
+.team_sec .owl-carousel .owl-dot span {
+	background: #5bc86d;
+}
+.team_sec .owl-carousel .owl-dot.active span {
+	background: #5bc86d;
+}
+
+/*******  Package Sec  *******/
+.package_sec .owl-item.active.center .package_block {
+	background: #5076db;
+}
+.package_sec .owl-item.active.center .package_block h3 {
+	color: #5bc86d;
+}
+.package_sec .package_block h3 {
+	color: #5076db;
+}
+ul.package_list li:before {
+	color: #5bc86d;
+}
+.package_sec .buy_btn {
+	background: #5076db;
+}
+.package_sec .owl-item.active.center .package_block .buy_btn {
+	background: #5bc86d;
+}
+.package_sec .owl-item.active.center .radial-out:hover {
+	background: #fff;
+	color: #000;
+}
+.package_sec .owl-carousel .owl-nav button.owl-prev:hover,
+.package_sec .owl-carousel .owl-nav button.owl-next:hover {
+	background: #5076db !important;
+	border-color: #5076db;
+}
+.package_sec.package_inn .package_block.select {
+	background: #5076db;
+}
+.package_sec.package_inn .package_block.select h3 {
+	color: #5bc86d;
+}
+.package_sec.package_inn .package_block.select ul.package_list li {
+	color: #d5dcf5;
+}
+.package_sec.package_inn .package_block.select .buy_btn {
+	background: #5bc86d;
+}
+.package_sec.package_inn .package_block.select .radial-out:hover {
+	background: #fff;
+	color: #000;
+}
+.package_sec.sec_pricing .package_block .top_info {
+	background: #5076db;
+}
+.package_sec.third_pricing .package_block:hover .top_info {
+	background: #5bc86d;
+}
+.package_sec.third_pricing .package_block:hover .buy_btn {
+	background: #5bc86d;
+}
+.package_sec.sec_pricing .package_block .top_info:before {
+	background: url(../images/sec_pricing_curve.png) top left no-repeat;
+}
+
+/*******  Testimonial Sec  *******/
+.testimonial_sec .other_info i {
+	background: url(../images/quote_img.png) top right no-repeat;
+}
+.testimonial_sec .owl-carousel .owl-nav button.owl-prev:hover,
+.testimonial_sec .owl-carousel .owl-nav button.owl-next:hover {
+	background: #5bc86d !important;
+	border-color: #5bc86d;
+}
+.testimonial_sec .owl-carousel .owl-dot span {
+	background: #5bc86d
+}
+.testimonial_sec .owl-carousel .owl-dot.active span {
+	background: #5bc86d;
+}
+
+/*******  Blog Sec  *******/
+.blog_sec .blog_info .blog_img label {
+	background: #5076db;
+}
+.blog_sec .blog_info:hover h3 a {
+	color: #5076db;
+}
+.blog_sec .other_info a {
+	color: #5076db;
+}
+.blog_sec .owl-carousel .owl-nav button.owl-prev:hover,
+.blog_sec .owl-carousel .owl-nav button.owl-next:hover {
+	background: #5bc86d !important;
+	border-color: #5bc86d;
+}
+.blog_sec .owl-carousel .owl-dot span {
+	background: #5bc86d;
+}
+.blog_sec .owl-carousel .owl-dot.active span {
+	background: #5bc86d;
+}
+
+/*******  Instagram Sec  *******/
+.instagram_sec .insta_block:hover .caption_global {
+	border-color: #5076db;
+}
+.instagram_sec .owl-carousel .owl-nav button.owl-prev:hover,
+.instagram_sec .owl-carousel .owl-nav button.owl-next:hover {
+	background: #5bc86d !important;
+	border-color: #5bc86d;
+}
+.instagram_sec .owl-carousel .owl-dot span {
+	background: #5bc86d;
+}
+.instagram_sec .owl-carousel .owl-dot.active span {
+	background: #5bc86d;
+}
+
+/*******  Footer Sec  *******/
+.footer_detail .subscribe_btn {
+	background: #5076db;
+}
+
+ul.footer_link li a:hover {
+	color: #5bc86d;
+}
+ul.add_info li a:hover {
+	color: #5bc86d;
+}
+ul.footer_social li a:hover {
+	color: #5bc86d;
+}
+ul.footer_social li a:hover i {
+	border-color: #5bc86d;
+	color: #5bc86d;
+}
+.copyright span {
+	color: #fc00ff;
+    font-weight: 600;
+    font-size: 19px;
+    text-decoration: underline;
+	cursor: pointer;
+}
+
+/*******  To Top  *******/
+#return-to-top {
+	background: #5bc86d;
+}
+#return-to-top:hover {
+	background: #5076db;
+}
+
+/*******  Inner home Pages  *******/
+/* layout 2 color css */
+.slider_sec_2:before, .service_sec_2:after, .portfolio_sec_2:after, .package_sec_2:after, .work_sec_2:after, .instagram_sec_2:after{
+	background: url(../images/slider_curve.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.footer_detail_2:before{
+	background:url(../images/footer_curve.png) top center no-repeat; 
+	background-size:100% 100%; 
+}
+
+/* layout 4 color css */
+.slider_sec_4:before{
+	background: url(../images/home_4_curve_2.png) top center no-repeat;
+	background-size: 100% 100%;
+}
+.service_sec_4:before{
+	background: url(../images/home_4_curve_1.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.service_sec_4:after{
+	background: url(../images/home_4_curve_2.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.portfolio_sec_4:before{
+	background: url(../images/home_4_curve_1.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.portfolio_sec_4:after{
+	background: url(../images/home_4_curve_2.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.team_sec_4:before{
+	background: url(../images/home_4_curve_1.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.package_sec_4:before{
+	background: url(../images/testimonial_curve_2.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.work_sec_4:before{
+	background: url(../images/work_curve.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.instagram_sec_4:before{
+	background: url(../images/home_4_curve_2.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.footer_detail_4:before{
+	background: url(../images/home_4_curve_1.png) top center no-repeat;
+    background-size: 100% 100%;
+}

@@ -1,0 +1,171 @@
+/* 
+Template Name: Halari – Multipurpose Business Template
+Template URI: https://themeforest.net/item/halari-multi-purpose-parallax-business-landing-page-psd-template/24429840
+Description: Halari – Multi purpose Business landing page template for Service, corporate, agency, Consulting, startup.
+Author: ashishmaraviya
+Author URI: https://themeforest.net/user/ashishmaraviya
+*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+01. Slider section / .slider_sec
+02. About section / .about_sec
+03. Service section / .services_sec
+04. Skill section / .skill_sec
+05. Portfolio section / .portfolio_sec
+06. Counter section / .count_sec
+07. Team section / .team_sec
+08. Package section / .package_sec
+09. Testimonial section / .testimonial_sec
+10. Work section / .work_sec
+11. Blog section / .blog_sec
+12. Instagram section / .instagram_sec
+13. Footer section / footer
+-------------------------------------------------------------------*/
+
+/* Slider section */
+.slider_sec_4:before {
+    content: "";
+    width: 100%;
+    height: 60px;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+.slider_sec_4 .caption_info .inner {
+    margin: -10px auto 0 auto;
+}
+
+/* About section */
+.about_sec_4 .about-img .back-img{
+    background: url(../images/about/doter-bg-2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.about_sec .about-img .back-img {
+    background: url(../images/about/doter-bg-2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* service section */
+.service_sec_4{
+    padding: 160px 0;
+    position: relative;
+}
+.service_sec_4:before {
+    content: "";
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.service_sec_4:after {
+    content: "";
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+/* portfolio section */
+.portfolio_sec_4 {
+    padding: 160px 0 145px 0;
+    position: relative;
+}
+.portfolio_sec_4:before {
+    content: "";
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.portfolio_sec_4:after {
+    content: "";
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+/* team section */
+.team_sec_4 {
+    padding: 160px 0 100px 0;
+    position: relative;
+}
+.team_sec_4:before {
+    content: "";
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* package section */
+.package_sec_4 {
+    padding: 100px 0 160px 0;
+    position: relative;
+}
+.package_sec_4:before {
+    content: "";
+    width: 100%;
+    height: 60px;    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* work section */
+.work_sec_4 {
+    padding: 160px 0 95px 0;
+    position: relative;
+}
+.work_sec_4:before {
+    content: "";
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* instagram section */
+.instagram_sec_4 {
+    padding: 100px 0 160px 0;
+    position: relative;
+}
+.instagram_sec_4:before {
+    content: "";
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+/* footer section */
+.footer_detail_4 {
+    padding: 110px 0 0 0;
+    position: relative;
+    overflow: unset;
+}
+.footer_detail_4:before {
+    content: "";
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}

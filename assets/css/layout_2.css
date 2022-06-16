@@ -1,0 +1,226 @@
+/* 
+Template Name: Halari � Multipurpose Business Template
+Template URI: https://themeforest.net/item/halari-multi-purpose-parallax-business-landing-page-psd-template/24429840
+Description: Halari � Multi purpose Business landing page theme for Service, corporate, agency, Consulting, startup.
+Author: ashishmaraviya
+Author URI: https://themeforest.net/user/ashishmaraviya
+*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+01. Slider section / .slider_sec
+02. About section / .about_sec
+03. Service section / .services_sec
+04. Skill section / .skill_sec
+05. Portfolio section / .portfolio_sec
+06. Counter section / .count_sec
+07. Team section / .team_sec
+08. Package section / .package_sec
+09. Testimonial section / .testimonial_sec
+10. Work section / .work_sec
+11. Blog section / .blog_sec
+12. Instagram section / .instagram_sec
+13. Footer section / footer
+-------------------------------------------------------------------*/
+
+/* Slider section */
+.slider_sec_2:before {
+    content: "";
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+.slider_sec_2 .caption_info .inner{
+    margin: -10px auto 0 auto;
+    max-width: 850px;
+}
+
+/* About section */
+.about_sec_2 .about-img .back-img{
+    background: url(../images/about/doter-bg-2.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.about_sec_2{
+    padding: 100px 0;
+}
+
+/* Service section */
+.service_sec_2 {
+    padding: 160px 0;
+    position: relative;
+}
+.service_sec_2:before {
+    content: "";
+    width: 100%;
+    height: 60px;
+    background: url(../images/service_curve.webp) top center no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.service_sec_2:after {
+    content: "";
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+}
+
+/* Skill section */
+.skill_sec_2{
+    padding: 100px 0;
+}
+
+/* portfolio section */
+.portfolio_sec_2 {
+    padding: 160px 0 145px 0;
+    position: relative;
+}
+.portfolio_sec_2:before {
+    content: "";
+    width: 100%;
+    height: 60px;
+    background: url(../images/service_curve.webp) top center no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.portfolio_sec_2:after {
+    content: "";
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+}
+
+/* Counter section */
+.count_sec_2{
+    padding: 100px 0;
+}
+
+/* Team section */
+.team_sec_2 {
+    padding: 160px 0 100px 0;
+    position: relative;
+}
+.team_sec_2:before {
+    content: "";
+    width: 100%;
+    height: 60px;
+    background: url(../images/service_curve.webp) top center no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* package section */
+.package_sec_2 {
+    padding: 160px 0;
+    position: relative;
+ }
+.package_sec_2:before {
+    content: "";
+    width: 100%;
+    height: 60px;
+    background: url(../images/package_curve.webp) top center no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.package_sec_2:after {
+    content: "";
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+}
+
+/* testimonial section */
+.testimonial_sec_2{
+    padding: 100px 0;
+}
+
+/* Work section */
+.work_sec_2 {
+    padding: 160px 0 155px 0;
+    position: relative;
+}
+.work_sec_2:before {
+    content: "";
+    width: 100%;
+    height: 60px;
+    background: url(../images/service_curve.webp) top center no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.work_sec_2:after {
+    content: "";
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+}
+
+/* Blog section */
+.blog_sec_2{
+    padding: 100px 0;
+}
+
+/* instagram section */
+.instagram_sec_2 {
+    padding: 155px 0 160px 0;
+    position: relative;
+}
+.instagram_sec_2:before {
+    content: "";
+    width: 100%;
+    height: 60px;
+    background: url(../images/service_curve.webp) top center no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.instagram_sec_2:after {
+    content: "";
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+}
+
+/* Footer section */
+.footer_detail_2{ 
+	padding: 110px 0 0 0; 
+	position:relative; 
+}
+.footer_detail_2:before{ 
+	content:""; 
+	width:100%; 
+	height:60px; 
+	position:absolute; 
+	top:-1px; 
+	left:0; 
+	z-index:9;
+}
